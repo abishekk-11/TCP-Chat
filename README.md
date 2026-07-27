@@ -81,7 +81,7 @@ multithreaded-chat-server/
 - ![Incoming Clients Page](incomingclients.jpeg)
 - ![Multiple Clients Page](multipleclients.jpeg)
 - ![Available Rooms Page](availablerooms.jpeg)
-- ![Send/Receive Files](send/receivefiles.jpeg)
+- ![Send/Receive Files](send:receivefiles.jpeg)
 
 
 
