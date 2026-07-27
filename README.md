@@ -77,6 +77,14 @@ multithreaded-chat-server/
 
 ---
 
+##Testing 
+- ![Incoming Clients Page](incomingclients.jpeg)
+- ![Multiple Clients Page](multipleclients.jpeg)
+- ![Available Rooms Page](availablerooms.jpeg)
+- ![Send/Receive Files](send/receivefiles.jpeg)
+
+
+
 ## How It Works
 
 ### Server
