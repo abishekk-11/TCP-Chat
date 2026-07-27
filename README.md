@@ -79,30 +79,30 @@ multithreaded-chat-server/
 
 ##Testing 
 - ![Incoming Clients Page](incomingclients.jpeg)
-● This output shows that the server starts on port 1004 and waits for incoming connections
-● Then when a client connects, the server prints the current room list
-● Then the client is prompted to choose a room or create a new one if no room exist, then they type in their username
-● After joining, the server updates the room and displays the current list of participants.
-● Clients also see message from one another inside the same room
+- This output shows that the server starts on port 1004 and waits for incoming connections
+- Then when a client connects, the server prints the current room list
+- Then the client is prompted to choose a room or create a new one if no room exist, then they type in their username
+- After joining, the server updates the room and displays the current list of participants.
+- Clients also see message from one another inside the same room
 - ![Multiple Clients Page](multipleclients.jpeg)
-  ● This output shows that multiple clients run in separate terminals and connects to the same server
-● The server updates the room list dynamically as new clients join as this shows users in each room
-● Then the clients joining different rooms don’t see each other’s chat confirming room isolation
-● And when the client joins, the server prints an updates room/ participant table
-● Supports independent room management 
+- This output shows that multiple clients run in separate terminals and connects to the same server
+- The server updates the room list dynamically as new clients join as this shows users in each room
+- Then the clients joining different rooms don’t see each other’s chat confirming room isolation
+- And when the client joins, the server prints an updates room/ participant table
+- Supports independent room management 
 - ![Available Rooms Page](availablerooms.jpeg)
-● This output shows when the client runs without specifying a room or using “new”, the server
+- This output shows when the client runs without specifying a room or using “new”, the server
 sends a list of all available rooms
-● Then the client must choose a room number or type in “new” for UI completeness
-● If the user chooses an existing room, the server puts them into that room and notifies all users
-● If the room is empty or doesn’t exist, then the server handles creation or error messages as needed
-● There are also multiple side to side clients displaying accurate room roster and join notifications
+- Then the client must choose a room number or type in “new” for UI completeness
+- If the user chooses an existing room, the server puts them into that room and notifies all users
+- If the room is empty or doesn’t exist, then the server handles creation or error messages as needed
+- There are also multiple side to side clients displaying accurate room roster and join notifications
 - ![Send/Receive Files](sendreceivefiles.jpeg)
-● This output shows that the client supports a special message format where you can send and
+- This output shows that the client supports a special message format where you can send and
 receive files.
-● The server notifies the receiving user and asks to either accept or reject it
-● And if accepted, the file is streamed in binary safe mode and saved in the receiver’s directory
-● The transfer finishes with “file transfer complete” and the receiver also sees the full file contents.
+- The server notifies the receiving user and asks to either accept or reject it
+- And if accepted, the file is streamed in binary safe mode and saved in the receiver’s directory
+- The transfer finishes with “file transfer complete” and the receiver also sees the full file contents.
 
 
 
